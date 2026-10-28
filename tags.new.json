@@ -1,0 +1,573 @@
+[
+  {
+    "slug": "bulk-sale",
+    "name": {
+      "fr": "Vente en gros",
+      "en": "Wholesale"
+    },
+    "emoji": "📦",
+    "categories": [
+      "food-agriculture",
+      "building-materials",
+      "power-energy-equipment",
+      "business-industrial",
+      "office-school"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/categorie/materiel-pro",
+        "path": "Matériel Pro > Matériel Agricole; Matériaux Construction, BTP, Outillages; Fournitures de Bureaux; Matériel Marchés & Commerces; Matériel Médical; Énergie, Groupes Électrogène & Panneaux solaires"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Utile pour vendeurs professionnels, fournisseurs de chantier et commerçants qui vendent par cartons, sacs, lots ou palettes."
+  },
+  {
+    "slug": "cash-on-delivery",
+    "name": {
+      "fr": "Paiement à la livraison",
+      "en": "Cash on delivery"
+    },
+    "emoji": "💵",
+    "categories": [
+      "electronics",
+      "home-garden",
+      "fashion",
+      "beauty-personal-care",
+      "office-school"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+        "url": "https://www.jumia.com.ng/mlp-all-categories/",
+        "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+      }
+    ],
+    "rationale": "Modalité fréquente dans les transactions de commerce à distance ; à afficher seulement quand le vendeur l’accepte réellement."
+  },
+  {
+    "slug": "mobile-money-accepted",
+    "name": {
+      "fr": "Mobile Money accepté",
+      "en": "Mobile money accepted"
+    },
+    "emoji": "📱",
+    "categories": [
+      "vehicles",
+      "real-estate",
+      "electronics",
+      "home-garden",
+      "fashion",
+      "beauty-personal-care",
+      "food-agriculture",
+      "business-industrial",
+      "office-school",
+      "jobs-services"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Étiquette utile au marché camerounais pour signaler l’acceptation de MTN MoMo ou Orange Money ; ne constitue pas une promesse de séquestre ou de paiement intégré."
+  },
+  {
+    "slug": "payment-instalments",
+    "name": {
+      "fr": "Paiement échelonné",
+      "en": "Payment in instalments"
+    },
+    "emoji": "🧾",
+    "categories": [
+      "vehicles",
+      "electronics",
+      "home-garden",
+      "business-industrial"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "eBay",
+        "url": "https://www.ebay.com/",
+        "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+      }
+    ],
+    "rationale": "Peut être utile sur les biens coûteux ; l’annonceur doit préciser les conditions et respecter les règles applicables au crédit."
+  },
+  {
+    "slug": "made-to-order",
+    "name": {
+      "fr": "Fabriqué sur commande",
+      "en": "Made to order"
+    },
+    "emoji": "🛠️",
+    "categories": [
+      "fabrics-textiles",
+      "african-fabrics-wax",
+      "furniture",
+      "building-materials",
+      "arts-crafts",
+      "beauty-personal-care"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Pertinent pour couture sur mesure, mobilier, artisanat et fabrication locale."
+  },
+  {
+    "slug": "handmade",
+    "name": {
+      "fr": "Fait main",
+      "en": "Handmade"
+    },
+    "emoji": "🧵",
+    "categories": [
+      "fabrics-textiles",
+      "african-fabrics-wax",
+      "arts-crafts",
+      "home-decor-lighting",
+      "beauty-personal-care"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "eBay",
+        "url": "https://www.ebay.com/",
+        "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+      },
+      {
+        "marketplace": "Amazon",
+        "url": "https://sellercentral.amazon.com/gp/help/external/GCZM532MZ9A4GU46?language=en_US",
+        "path": "Baby Products; Computers; Furniture; Home and Kitchen; Pet Products; Sports and Outdoors; Tools and Home Improvement; Office Products; Grocery and Gourmet; Beauty, Health and Personal Care"
+      }
+    ],
+    "rationale": "Aide à distinguer l’artisanat et les créations manuelles de la revente de produits industriels."
+  },
+  {
+    "slug": "locally-produced",
+    "name": {
+      "fr": "Produit local",
+      "en": "Locally produced"
+    },
+    "emoji": "🇨🇲",
+    "categories": [
+      "food-agriculture",
+      "african-fabrics-wax",
+      "arts-crafts",
+      "beauty-personal-care"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Valorise les produits camerounais et régionaux ; l’origine doit être renseignée honnêtement."
+  },
+  {
+    "slug": "farm-fresh",
+    "name": {
+      "fr": "Récolte récente / frais",
+      "en": "Farm-fresh"
+    },
+    "emoji": "🌿",
+    "categories": [
+      "fresh-food-produce",
+      "fruits-vegetables",
+      "meat-fish-poultry",
+      "local-staples-grains"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Signal utile pour les produits alimentaires frais, sans équivaloir à une certification sanitaire."
+  },
+  {
+    "slug": "installation-included",
+    "name": {
+      "fr": "Installation incluse",
+      "en": "Installation included"
+    },
+    "emoji": "🔧",
+    "categories": [
+      "power-energy-equipment",
+      "generators",
+      "solar-panels-kits",
+      "inverters-ups",
+      "security-surveillance",
+      "appliances",
+      "building-materials"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/categorie/materiel-pro",
+        "path": "Matériel Pro > Matériel Agricole; Matériaux Construction, BTP, Outillages; Fournitures de Bureaux; Matériel Marchés & Commerces; Matériel Médical; Énergie, Groupes Électrogène & Panneaux solaires"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Permet de distinguer le prix d’un équipement seul du prix avec installation."
+  },
+  {
+    "slug": "delivery-in-city",
+    "name": {
+      "fr": "Livraison en ville",
+      "en": "City delivery available"
+    },
+    "emoji": "🛵",
+    "categories": [
+      "food-agriculture",
+      "building-materials",
+      "home-garden",
+      "electronics",
+      "beauty-personal-care",
+      "office-school"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Indique une livraison locale dans la ville du vendeur sans créer un attribut de catégorie."
+  },
+  {
+    "slug": "after-sales-support",
+    "name": {
+      "fr": "Service après-vente",
+      "en": "After-sales support"
+    },
+    "emoji": "🧰",
+    "categories": [
+      "electronics",
+      "power-energy-equipment",
+      "business-industrial",
+      "appliances",
+      "office-school"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+        "url": "https://www.jumia.com.ng/mlp-all-categories/",
+        "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+      }
+    ],
+    "rationale": "Utile pour les équipements nécessitant installation, garantie de service ou maintenance ; ne remplace pas un champ de garantie."
+  },
+  {
+    "slug": "custom-measurements",
+    "name": {
+      "fr": "Sur mesure",
+      "en": "Custom measurements"
+    },
+    "emoji": "📏",
+    "categories": [
+      "womens-clothing",
+      "mens-clothing",
+      "fabrics-textiles",
+      "african-fabrics-wax",
+      "furniture"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Fréquent pour kaba, pagne, vêtements traditionnels et mobilier fabriqué à la demande."
+  },
+  {
+    "slug": "home-service",
+    "name": {
+      "fr": "Prestation à domicile",
+      "en": "Home service available"
+    },
+    "emoji": "🏠",
+    "categories": [
+      "services",
+      "beauty-personal-services",
+      "tailoring-sewing-services",
+      "private-tutoring-services",
+      "home-repair-maintenance-services",
+      "cleaning-laundry-services",
+      "electrical-plumbing-services"
+    ],
+    "sources": [
+      {
+        "marketplace": "CoinAfrique Cameroon",
+        "url": "https://cm.coinafrique.com/",
+        "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+      },
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      }
+    ],
+    "rationale": "Fait ressortir les prestataires qui se déplacent chez le client."
+  },
+  {
+    "slug": "same-day-service",
+    "name": {
+      "fr": "Service le jour même",
+      "en": "Same-day service"
+    },
+    "emoji": "⏱️",
+    "categories": [
+      "services",
+      "phone-computer-repair-services",
+      "transport-delivery-services",
+      "cleaning-laundry-services",
+      "appliance-repair-services"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Utile pour les besoins urgents ; la disponibilité doit être respectée par le prestataire."
+  },
+  {
+    "slug": "weekend-available",
+    "name": {
+      "fr": "Disponible le week-end",
+      "en": "Weekend availability"
+    },
+    "emoji": "🗓️",
+    "categories": [
+      "services",
+      "private-tutoring-services",
+      "beauty-personal-services",
+      "event-rental-planning-services",
+      "catering-food-services",
+      "transport-delivery-services"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Les événements et certaines prestations ont souvent lieu le week-end."
+  },
+  {
+    "slug": "licensed-professional",
+    "name": {
+      "fr": "Professionnel agréé",
+      "en": "Licensed professional"
+    },
+    "emoji": "✅",
+    "categories": [
+      "money-transfer-services",
+      "health-parapharmacy",
+      "construction-contractor-services",
+      "electrical-plumbing-services",
+      "security-installation-services",
+      "services"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Étiquette réservée aux prestations pour lesquelles le vendeur peut justifier un agrément ou une autorisation requise."
+  },
+  {
+    "slug": "internship",
+    "name": {
+      "fr": "Stage",
+      "en": "Internship"
+    },
+    "emoji": "🎓",
+    "categories": [
+      "job-offers",
+      "tech-office-jobs",
+      "hospitality-jobs",
+      "construction-jobs",
+      "agriculture-jobs"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Type d’opportunité de recrutement transversal ; distinct du tag full-time/part-time et du type de contrat détaillé."
+  },
+  {
+    "slug": "commission-based",
+    "name": {
+      "fr": "Rémunération à la commission",
+      "en": "Commission-based pay"
+    },
+    "emoji": "💼",
+    "categories": [
+      "job-offers",
+      "retail-sales-jobs",
+      "transport-logistics-jobs"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Utile pour distinguer les offres dont la rémunération dépend des ventes ou résultats."
+  },
+  {
+    "slug": "includes-training",
+    "name": {
+      "fr": "Formation initiale incluse",
+      "en": "Training provided"
+    },
+    "emoji": "📘",
+    "categories": [
+      "job-offers",
+      "retail-sales-jobs",
+      "transport-logistics-jobs",
+      "hospitality-jobs",
+      "tech-office-jobs"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "Boncoin Cameroon",
+        "url": "https://boncoin.cm/",
+        "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+      }
+    ],
+    "rationale": "Permet de signaler les postes qui forment les nouveaux employés."
+  },
+  {
+    "slug": "export-ready",
+    "name": {
+      "fr": "Prêt pour export",
+      "en": "Export-ready"
+    },
+    "emoji": "🌍",
+    "categories": [
+      "food-agriculture",
+      "business-industrial",
+      "building-materials"
+    ],
+    "sources": [
+      {
+        "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+        "url": "https://jiji.ng/",
+        "path": "Electronics"
+      },
+      {
+        "marketplace": "eBay",
+        "url": "https://www.ebay.com/",
+        "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+      }
+    ],
+    "rationale": "Utile pour fournisseurs visant des acheteurs régionaux ; à cocher seulement lorsque la documentation et la logistique le permettent."
+  }
+]

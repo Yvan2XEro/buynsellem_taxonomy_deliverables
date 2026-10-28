@@ -1,0 +1,2333 @@
+{
+  "attributes": [
+    {
+      "categorySlug": "phones",
+      "attributes": [
+        {
+          "slug": "battery-health-percent",
+          "name": {
+            "fr": "État de santé de la batterie",
+            "en": "Battery health"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "%",
+          "min": 0,
+          "max": 100,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "network-lock-status",
+          "name": {
+            "fr": "Verrouillage réseau",
+            "en": "Network lock status"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "unlocked",
+              "label": {
+                "fr": "Désimlocké",
+                "en": "Unlocked"
+              }
+            },
+            {
+              "value": "locked",
+              "label": {
+                "fr": "Verrouillé opérateur",
+                "en": "Carrier locked"
+              }
+            },
+            {
+              "value": "unknown",
+              "label": {
+                "fr": "Non vérifié",
+                "en": "Unknown"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "esim-support",
+          "name": {
+            "fr": "Compatible eSIM",
+            "en": "eSIM support"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        }
+      ]
+    },
+    {
+      "categorySlug": "computers",
+      "attributes": [
+        {
+          "slug": "gpu-memory-gb",
+          "name": {
+            "fr": "Mémoire vidéo dédiée",
+            "en": "Dedicated graphics memory"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "GB",
+          "min": 0,
+          "max": 128,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "keyboard-layout",
+          "name": {
+            "fr": "Disposition du clavier",
+            "en": "Keyboard layout"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "azerty",
+              "label": {
+                "fr": "AZERTY",
+                "en": "AZERTY"
+              }
+            },
+            {
+              "value": "qwerty_us",
+              "label": {
+                "fr": "QWERTY US",
+                "en": "QWERTY US"
+              }
+            },
+            {
+              "value": "qwerty_uk",
+              "label": {
+                "fr": "QWERTY UK",
+                "en": "QWERTY UK"
+              }
+            },
+            {
+              "value": "other",
+              "label": {
+                "fr": "Autre",
+                "en": "Other"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "touchscreen",
+          "name": {
+            "fr": "Écran tactile",
+            "en": "Touchscreen"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "tvs-monitors",
+      "attributes": [
+        {
+          "slug": "refresh-rate-hz",
+          "name": {
+            "fr": "Fréquence de rafraîchissement",
+            "en": "Refresh rate"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "Hz",
+          "min": 0,
+          "max": 1000,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "panel-type",
+          "name": {
+            "fr": "Type de dalle",
+            "en": "Panel type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "led_lcd",
+              "label": {
+                "fr": "LED/LCD",
+                "en": "LED/LCD"
+              }
+            },
+            {
+              "value": "oled",
+              "label": {
+                "fr": "OLED",
+                "en": "OLED"
+              }
+            },
+            {
+              "value": "qled",
+              "label": {
+                "fr": "QLED",
+                "en": "QLED"
+              }
+            },
+            {
+              "value": "ips",
+              "label": {
+                "fr": "IPS",
+                "en": "IPS"
+              }
+            },
+            {
+              "value": "va",
+              "label": {
+                "fr": "VA",
+                "en": "VA"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "smart-tv",
+          "name": {
+            "fr": "Smart TV",
+            "en": "Smart TV"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        },
+        {
+          "marketplace": "Amazon",
+          "url": "https://sellercentral.amazon.com/gp/help/external/GCZM532MZ9A4GU46?language=en_US",
+          "path": "Baby Products; Computers; Furniture; Home and Kitchen; Pet Products; Sports and Outdoors; Tools and Home Improvement; Office Products; Grocery and Gourmet; Beauty, Health and Personal Care"
+        }
+      ]
+    },
+    {
+      "categorySlug": "gaming",
+      "attributes": [
+        {
+          "slug": "included-controller-count",
+          "name": {
+            "fr": "Nombre de manettes incluses",
+            "en": "Included controller count"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "unités",
+          "min": 0,
+          "max": 20,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "disc-drive",
+          "name": {
+            "fr": "Lecteur de disque",
+            "en": "Disc drive"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "yes",
+              "label": {
+                "fr": "Oui",
+                "en": "Yes"
+              }
+            },
+            {
+              "value": "no",
+              "label": {
+                "fr": "Non",
+                "en": "No"
+              }
+            },
+            {
+              "value": "digital_only",
+              "label": {
+                "fr": "Version numérique",
+                "en": "Digital-only"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "storage-capacity-gb",
+          "name": {
+            "fr": "Capacité de stockage",
+            "en": "Storage capacity"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "GB",
+          "min": 0,
+          "max": 10000,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "cars",
+      "attributes": [
+        {
+          "slug": "import-status",
+          "name": {
+            "fr": "Origine du véhicule",
+            "en": "Vehicle origin"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "local_used",
+              "label": {
+                "fr": "Occasion locale",
+                "en": "Locally used"
+              }
+            },
+            {
+              "value": "foreign_used",
+              "label": {
+                "fr": "Occasion importée",
+                "en": "Foreign used"
+              }
+            },
+            {
+              "value": "brand_new",
+              "label": {
+                "fr": "Neuf",
+                "en": "Brand new"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "customs-status",
+          "name": {
+            "fr": "Situation douanière",
+            "en": "Customs status"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "cleared",
+              "label": {
+                "fr": "Dédouané",
+                "en": "Customs cleared"
+              }
+            },
+            {
+              "value": "not_cleared",
+              "label": {
+                "fr": "Non dédouané",
+                "en": "Not cleared"
+              }
+            },
+            {
+              "value": "unknown",
+              "label": {
+                "fr": "Non précisé",
+                "en": "Unspecified"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "steering-side",
+          "name": {
+            "fr": "Position du volant",
+            "en": "Steering side"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "left",
+              "label": {
+                "fr": "À gauche",
+                "en": "Left-hand drive"
+              }
+            },
+            {
+              "value": "right",
+              "label": {
+                "fr": "À droite",
+                "en": "Right-hand drive"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "motorcycles",
+      "attributes": [
+        {
+          "slug": "engine-start-type",
+          "name": {
+            "fr": "Type de démarrage",
+            "en": "Start type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "electric",
+              "label": {
+                "fr": "Électrique",
+                "en": "Electric"
+              }
+            },
+            {
+              "value": "kick",
+              "label": {
+                "fr": "Kick",
+                "en": "Kick start"
+              }
+            },
+            {
+              "value": "both",
+              "label": {
+                "fr": "Électrique et kick",
+                "en": "Electric and kick"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "motorcycle-use",
+          "name": {
+            "fr": "Usage principal",
+            "en": "Main use"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "commuter",
+              "label": {
+                "fr": "Déplacement quotidien",
+                "en": "Commuter"
+              }
+            },
+            {
+              "value": "delivery",
+              "label": {
+                "fr": "Livraison",
+                "en": "Delivery"
+              }
+            },
+            {
+              "value": "off_road",
+              "label": {
+                "fr": "Tout-terrain",
+                "en": "Off-road"
+              }
+            },
+            {
+              "value": "sport",
+              "label": {
+                "fr": "Sport",
+                "en": "Sport"
+              }
+            },
+            {
+              "value": "utility",
+              "label": {
+                "fr": "Utilitaire",
+                "en": "Utility"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "apartments",
+      "attributes": [
+        {
+          "slug": "water-supply",
+          "name": {
+            "fr": "Approvisionnement en eau",
+            "en": "Water supply"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "camwater",
+              "label": {
+                "fr": "CAMWATER / réseau",
+                "en": "Municipal network"
+              }
+            },
+            {
+              "value": "borehole",
+              "label": {
+                "fr": "Forage",
+                "en": "Borehole"
+              }
+            },
+            {
+              "value": "well",
+              "label": {
+                "fr": "Puits",
+                "en": "Well"
+              }
+            },
+            {
+              "value": "tank",
+              "label": {
+                "fr": "Réserve / citerne",
+                "en": "Tank / storage"
+              }
+            },
+            {
+              "value": "intermittent",
+              "label": {
+                "fr": "Intermittent",
+                "en": "Intermittent"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "power-backup",
+          "name": {
+            "fr": "Source d’électricité de secours",
+            "en": "Backup power"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "parking-spaces",
+          "name": {
+            "fr": "Places de parking",
+            "en": "Parking spaces"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "places",
+          "min": 0,
+          "max": 100,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Leboncoin",
+          "url": "https://assistance.leboncoin.info/hc/fr/articles/14181001891090-Modification-de-l-arbre-des-catégories",
+          "path": "Immobilier; Véhicules; Mode; Maison et jardin; Matériel pro; Électronique; Loisirs; Services"
+        }
+      ]
+    },
+    {
+      "categorySlug": "houses",
+      "attributes": [
+        {
+          "slug": "water-supply",
+          "name": {
+            "fr": "Approvisionnement en eau",
+            "en": "Water supply"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "camwater",
+              "label": {
+                "fr": "CAMWATER / réseau",
+                "en": "Municipal network"
+              }
+            },
+            {
+              "value": "borehole",
+              "label": {
+                "fr": "Forage",
+                "en": "Borehole"
+              }
+            },
+            {
+              "value": "well",
+              "label": {
+                "fr": "Puits",
+                "en": "Well"
+              }
+            },
+            {
+              "value": "tank",
+              "label": {
+                "fr": "Réserve / citerne",
+                "en": "Tank / storage"
+              }
+            },
+            {
+              "value": "intermittent",
+              "label": {
+                "fr": "Intermittent",
+                "en": "Intermittent"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "power-backup",
+          "name": {
+            "fr": "Source d’électricité de secours",
+            "en": "Backup power"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "fenced-property",
+          "name": {
+            "fr": "Terrain clôturé",
+            "en": "Fenced property"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Leboncoin",
+          "url": "https://assistance.leboncoin.info/hc/fr/articles/14181001891090-Modification-de-l-arbre-des-catégories",
+          "path": "Immobilier; Véhicules; Mode; Maison et jardin; Matériel pro; Électronique; Loisirs; Services"
+        }
+      ]
+    },
+    {
+      "categorySlug": "land",
+      "attributes": [
+        {
+          "slug": "title-document-type",
+          "name": {
+            "fr": "Document foncier déclaré",
+            "en": "Declared land title document"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "land_title",
+              "label": {
+                "fr": "Titre foncier",
+                "en": "Land title"
+              }
+            },
+            {
+              "value": "certificate",
+              "label": {
+                "fr": "Certificat / attestation",
+                "en": "Certificate / attestation"
+              }
+            },
+            {
+              "value": "allocation_letter",
+              "label": {
+                "fr": "Lettre d’attribution",
+                "en": "Allocation letter"
+              }
+            },
+            {
+              "value": "customary",
+              "label": {
+                "fr": "Droits coutumiers",
+                "en": "Customary rights"
+              }
+            },
+            {
+              "value": "unknown",
+              "label": {
+                "fr": "Non précisé",
+                "en": "Unspecified"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "road-access",
+          "name": {
+            "fr": "Accès routier",
+            "en": "Road access"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "land-use-type",
+          "name": {
+            "fr": "Usage prévu",
+            "en": "Intended land use"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "residential",
+              "label": {
+                "fr": "Résidentiel",
+                "en": "Residential"
+              }
+            },
+            {
+              "value": "commercial",
+              "label": {
+                "fr": "Commercial",
+                "en": "Commercial"
+              }
+            },
+            {
+              "value": "agricultural",
+              "label": {
+                "fr": "Agricole",
+                "en": "Agricultural"
+              }
+            },
+            {
+              "value": "industrial",
+              "label": {
+                "fr": "Industriel",
+                "en": "Industrial"
+              }
+            },
+            {
+              "value": "mixed",
+              "label": {
+                "fr": "Mixte",
+                "en": "Mixed"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Leboncoin",
+          "url": "https://assistance.leboncoin.info/hc/fr/articles/14181001891090-Modification-de-l-arbre-des-catégories",
+          "path": "Immobilier; Véhicules; Mode; Maison et jardin; Matériel pro; Électronique; Loisirs; Services"
+        }
+      ]
+    },
+    {
+      "categorySlug": "commercial-property",
+      "attributes": [
+        {
+          "slug": "loading-access",
+          "name": {
+            "fr": "Accès de livraison / camion",
+            "en": "Loading access"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "power-capacity-kva",
+          "name": {
+            "fr": "Puissance électrique disponible",
+            "en": "Available electrical capacity"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "kVA",
+          "min": 0,
+          "max": 10000,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "backup-power",
+          "name": {
+            "fr": "Groupe ou alimentation de secours",
+            "en": "Backup power"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Leboncoin",
+          "url": "https://assistance.leboncoin.info/hc/fr/articles/14181001891090-Modification-de-l-arbre-des-catégories",
+          "path": "Immobilier; Véhicules; Mode; Maison et jardin; Matériel pro; Électronique; Loisirs; Services"
+        }
+      ]
+    },
+    {
+      "categorySlug": "furniture",
+      "attributes": [
+        {
+          "slug": "wood-type",
+          "name": {
+            "fr": "Type de bois",
+            "en": "Wood type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "solid_wood",
+              "label": {
+                "fr": "Bois massif",
+                "en": "Solid wood"
+              }
+            },
+            {
+              "value": "mdf",
+              "label": {
+                "fr": "MDF",
+                "en": "MDF"
+              }
+            },
+            {
+              "value": "plywood",
+              "label": {
+                "fr": "Contreplaqué",
+                "en": "Plywood"
+              }
+            },
+            {
+              "value": "metal",
+              "label": {
+                "fr": "Métal",
+                "en": "Metal"
+              }
+            },
+            {
+              "value": "mixed",
+              "label": {
+                "fr": "Mixte",
+                "en": "Mixed"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "assembly-required",
+          "name": {
+            "fr": "Montage requis",
+            "en": "Assembly required"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        },
+        {
+          "marketplace": "Amazon",
+          "url": "https://sellercentral.amazon.com/gp/help/external/GCZM532MZ9A4GU46?language=en_US",
+          "path": "Baby Products; Computers; Furniture; Home and Kitchen; Pet Products; Sports and Outdoors; Tools and Home Improvement; Office Products; Grocery and Gourmet; Beauty, Health and Personal Care"
+        }
+      ]
+    },
+    {
+      "categorySlug": "appliances",
+      "attributes": [
+        {
+          "slug": "energy-source",
+          "name": {
+            "fr": "Source d’énergie",
+            "en": "Energy source"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "electric",
+              "label": {
+                "fr": "Électrique",
+                "en": "Electric"
+              }
+            },
+            {
+              "value": "gas",
+              "label": {
+                "fr": "Gaz",
+                "en": "Gas"
+              }
+            },
+            {
+              "value": "solar",
+              "label": {
+                "fr": "Solaire",
+                "en": "Solar"
+              }
+            },
+            {
+              "value": "manual",
+              "label": {
+                "fr": "Manuel",
+                "en": "Manual"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "stabilizer-recommended",
+          "name": {
+            "fr": "Stabilisateur recommandé",
+            "en": "Stabilizer recommended"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        }
+      ]
+    },
+    {
+      "categorySlug": "garden-diy",
+      "attributes": [
+        {
+          "slug": "power-source",
+          "name": {
+            "fr": "Source d’alimentation",
+            "en": "Power source"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "corded",
+              "label": {
+                "fr": "Filaire",
+                "en": "Corded"
+              }
+            },
+            {
+              "value": "battery",
+              "label": {
+                "fr": "Batterie",
+                "en": "Battery-powered"
+              }
+            },
+            {
+              "value": "petrol",
+              "label": {
+                "fr": "Essence",
+                "en": "Petrol"
+              }
+            },
+            {
+              "value": "diesel",
+              "label": {
+                "fr": "Diesel",
+                "en": "Diesel"
+              }
+            },
+            {
+              "value": "manual",
+              "label": {
+                "fr": "Manuel",
+                "en": "Manual"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "material-type",
+          "name": {
+            "fr": "Type de matériau / outil",
+            "en": "Material / tool type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "wood",
+              "label": {
+                "fr": "Bois",
+                "en": "Wood"
+              }
+            },
+            {
+              "value": "metal",
+              "label": {
+                "fr": "Métal",
+                "en": "Metal"
+              }
+            },
+            {
+              "value": "masonry",
+              "label": {
+                "fr": "Maçonnerie",
+                "en": "Masonry"
+              }
+            },
+            {
+              "value": "garden",
+              "label": {
+                "fr": "Jardin",
+                "en": "Garden"
+              }
+            },
+            {
+              "value": "electrical",
+              "label": {
+                "fr": "Électricité",
+                "en": "Electrical"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/categorie/bricolage",
+          "path": "Pour la maison > Bricolage"
+        },
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/categorie/materiel-pro",
+          "path": "Matériel Pro > Matériel Agricole; Matériaux Construction, BTP, Outillages; Fournitures de Bureaux; Matériel Marchés & Commerces; Matériel Médical; Énergie, Groupes Électrogène & Panneaux solaires"
+        }
+      ]
+    },
+    {
+      "categorySlug": "mens-clothing",
+      "attributes": [
+        {
+          "slug": "garment-fit",
+          "name": {
+            "fr": "Coupe",
+            "en": "Fit"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "slim",
+              "label": {
+                "fr": "Slim",
+                "en": "Slim"
+              }
+            },
+            {
+              "value": "regular",
+              "label": {
+                "fr": "Classique",
+                "en": "Regular"
+              }
+            },
+            {
+              "value": "relaxed",
+              "label": {
+                "fr": "Ample",
+                "en": "Relaxed"
+              }
+            },
+            {
+              "value": "oversized",
+              "label": {
+                "fr": "Oversize",
+                "en": "Oversized"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "fabric-pattern",
+          "name": {
+            "fr": "Motif de tissu",
+            "en": "Fabric pattern"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "plain",
+              "label": {
+                "fr": "Uni",
+                "en": "Plain"
+              }
+            },
+            {
+              "value": "striped",
+              "label": {
+                "fr": "Rayé",
+                "en": "Striped"
+              }
+            },
+            {
+              "value": "checked",
+              "label": {
+                "fr": "Carreaux",
+                "en": "Checked"
+              }
+            },
+            {
+              "value": "african_print",
+              "label": {
+                "fr": "Imprimé africain",
+                "en": "African print"
+              }
+            },
+            {
+              "value": "embroidered",
+              "label": {
+                "fr": "Broderie",
+                "en": "Embroidered"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        }
+      ]
+    },
+    {
+      "categorySlug": "womens-clothing",
+      "attributes": [
+        {
+          "slug": "garment-fit",
+          "name": {
+            "fr": "Coupe",
+            "en": "Fit"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "slim",
+              "label": {
+                "fr": "Près du corps",
+                "en": "Slim"
+              }
+            },
+            {
+              "value": "regular",
+              "label": {
+                "fr": "Classique",
+                "en": "Regular"
+              }
+            },
+            {
+              "value": "relaxed",
+              "label": {
+                "fr": "Ample",
+                "en": "Relaxed"
+              }
+            },
+            {
+              "value": "oversized",
+              "label": {
+                "fr": "Oversize",
+                "en": "Oversized"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "fabric-pattern",
+          "name": {
+            "fr": "Motif de tissu",
+            "en": "Fabric pattern"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "plain",
+              "label": {
+                "fr": "Uni",
+                "en": "Plain"
+              }
+            },
+            {
+              "value": "wax",
+              "label": {
+                "fr": "Wax / pagne",
+                "en": "Wax print"
+              }
+            },
+            {
+              "value": "ankara",
+              "label": {
+                "fr": "Ankara",
+                "en": "Ankara"
+              }
+            },
+            {
+              "value": "lace",
+              "label": {
+                "fr": "Dentelle",
+                "en": "Lace"
+              }
+            },
+            {
+              "value": "ndop",
+              "label": {
+                "fr": "Ndop",
+                "en": "Ndop"
+              }
+            },
+            {
+              "value": "embroidered",
+              "label": {
+                "fr": "Broderie",
+                "en": "Embroidered"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        }
+      ]
+    },
+    {
+      "categorySlug": "watches-jewelry",
+      "attributes": [
+        {
+          "slug": "watch-movement",
+          "name": {
+            "fr": "Mouvement de montre",
+            "en": "Watch movement"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "quartz",
+              "label": {
+                "fr": "Quartz",
+                "en": "Quartz"
+              }
+            },
+            {
+              "value": "automatic",
+              "label": {
+                "fr": "Automatique",
+                "en": "Automatic"
+              }
+            },
+            {
+              "value": "mechanical",
+              "label": {
+                "fr": "Mécanique",
+                "en": "Mechanical"
+              }
+            },
+            {
+              "value": "smartwatch",
+              "label": {
+                "fr": "Connectée",
+                "en": "Smartwatch"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "jewelry-material",
+          "name": {
+            "fr": "Matière du bijou",
+            "en": "Jewelry material"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "gold",
+              "label": {
+                "fr": "Or",
+                "en": "Gold"
+              }
+            },
+            {
+              "value": "silver",
+              "label": {
+                "fr": "Argent",
+                "en": "Silver"
+              }
+            },
+            {
+              "value": "stainless_steel",
+              "label": {
+                "fr": "Acier inoxydable",
+                "en": "Stainless steel"
+              }
+            },
+            {
+              "value": "fashion_metal",
+              "label": {
+                "fr": "Métal fantaisie",
+                "en": "Fashion metal"
+              }
+            },
+            {
+              "value": "beads",
+              "label": {
+                "fr": "Perles",
+                "en": "Beads"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "job-offers",
+      "attributes": [
+        {
+          "slug": "experience-years",
+          "name": {
+            "fr": "Expérience demandée",
+            "en": "Required experience"
+          },
+          "type": "number",
+          "required": false,
+          "filterable": true,
+          "unit": "ans",
+          "min": 0,
+          "max": 50,
+          "group": {
+            "fr": "Dimensions",
+            "en": "Dimensions"
+          }
+        },
+        {
+          "slug": "education-level",
+          "name": {
+            "fr": "Niveau d’études",
+            "en": "Education level"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "none",
+              "label": {
+                "fr": "Sans condition",
+                "en": "No requirement"
+              }
+            },
+            {
+              "value": "primary",
+              "label": {
+                "fr": "Primaire",
+                "en": "Primary"
+              }
+            },
+            {
+              "value": "secondary",
+              "label": {
+                "fr": "Secondaire",
+                "en": "Secondary"
+              }
+            },
+            {
+              "value": "vocational",
+              "label": {
+                "fr": "Formation professionnelle",
+                "en": "Vocational"
+              }
+            },
+            {
+              "value": "university",
+              "label": {
+                "fr": "Université",
+                "en": "University"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "application-deadline",
+          "name": {
+            "fr": "Date limite de candidature",
+            "en": "Application deadline"
+          },
+          "type": "date",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Recrutement",
+            "en": "Recruitment"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Boncoin Cameroon",
+          "url": "https://boncoin.cm/",
+          "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+        }
+      ]
+    },
+    {
+      "categorySlug": "services",
+      "attributes": [
+        {
+          "slug": "service-mode",
+          "name": {
+            "fr": "Mode de prestation",
+            "en": "Service mode"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "at_customer",
+              "label": {
+                "fr": "Chez le client",
+                "en": "At customer location"
+              }
+            },
+            {
+              "value": "at_provider",
+              "label": {
+                "fr": "Chez le prestataire",
+                "en": "At provider location"
+              }
+            },
+            {
+              "value": "remote",
+              "label": {
+                "fr": "À distance",
+                "en": "Remote"
+              }
+            },
+            {
+              "value": "mobile",
+              "label": {
+                "fr": "Mobile / déplacement",
+                "en": "Mobile / on-site"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "estimate-available",
+          "name": {
+            "fr": "Devis disponible",
+            "en": "Estimate available"
+          },
+          "type": "boolean",
+          "required": false,
+          "filterable": true,
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Boncoin Cameroon",
+          "url": "https://boncoin.cm/",
+          "path": "Alimentation & Agriculture; Construction et Réparation; Santé et Beauté; Bébés et Enfants; Équipement Professionnel; Animaux Domestiques; Hôtels, Restaurants; Services; Véhicules"
+        }
+      ]
+    },
+    {
+      "categorySlug": "sports-equipment",
+      "attributes": [
+        {
+          "slug": "sport-type",
+          "name": {
+            "fr": "Sport concerné",
+            "en": "Sport"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "football",
+              "label": {
+                "fr": "Football",
+                "en": "Football"
+              }
+            },
+            {
+              "value": "basketball",
+              "label": {
+                "fr": "Basket-ball",
+                "en": "Basketball"
+              }
+            },
+            {
+              "value": "fitness",
+              "label": {
+                "fr": "Fitness",
+                "en": "Fitness"
+              }
+            },
+            {
+              "value": "combat",
+              "label": {
+                "fr": "Sports de combat",
+                "en": "Combat sports"
+              }
+            },
+            {
+              "value": "running",
+              "label": {
+                "fr": "Course",
+                "en": "Running"
+              }
+            },
+            {
+              "value": "cycling",
+              "label": {
+                "fr": "Cyclisme",
+                "en": "Cycling"
+              }
+            },
+            {
+              "value": "other",
+              "label": {
+                "fr": "Autre",
+                "en": "Other"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "eBay",
+          "url": "https://www.ebay.com/",
+          "path": "Motors > Parts & accessories; Electronics; Home & Garden; Sporting goods; Business & Industrial; Clothing & Accessories; Pet Supplies"
+        }
+      ]
+    },
+    {
+      "categorySlug": "books-media",
+      "attributes": [
+        {
+          "slug": "language",
+          "name": {
+            "fr": "Langue",
+            "en": "Language"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "fr",
+              "label": {
+                "fr": "Français",
+                "en": "French"
+              }
+            },
+            {
+              "value": "en",
+              "label": {
+                "fr": "Anglais",
+                "en": "English"
+              }
+            },
+            {
+              "value": "bilingual",
+              "label": {
+                "fr": "Bilingue",
+                "en": "Bilingual"
+              }
+            },
+            {
+              "value": "other",
+              "label": {
+                "fr": "Autre",
+                "en": "Other"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "media-format",
+          "name": {
+            "fr": "Format",
+            "en": "Format"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "paperback",
+              "label": {
+                "fr": "Broché",
+                "en": "Paperback"
+              }
+            },
+            {
+              "value": "hardcover",
+              "label": {
+                "fr": "Relié",
+                "en": "Hardcover"
+              }
+            },
+            {
+              "value": "digital",
+              "label": {
+                "fr": "Numérique",
+                "en": "Digital"
+              }
+            },
+            {
+              "value": "dvd",
+              "label": {
+                "fr": "DVD",
+                "en": "DVD"
+              }
+            },
+            {
+              "value": "cd",
+              "label": {
+                "fr": "CD",
+                "en": "CD"
+              }
+            },
+            {
+              "value": "vinyl",
+              "label": {
+                "fr": "Vinyle",
+                "en": "Vinyl"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Amazon",
+          "url": "https://sellercentral.amazon.com/gp/help/external/GCZM532MZ9A4GU46?language=en_US",
+          "path": "Baby Products; Computers; Furniture; Home and Kitchen; Pet Products; Sports and Outdoors; Tools and Home Improvement; Office Products; Grocery and Gourmet; Beauty, Health and Personal Care"
+        }
+      ]
+    },
+    {
+      "categorySlug": "travel-vacation",
+      "attributes": [
+        {
+          "slug": "trip-type",
+          "name": {
+            "fr": "Type de séjour",
+            "en": "Trip type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "beach",
+              "label": {
+                "fr": "Plage",
+                "en": "Beach"
+              }
+            },
+            {
+              "value": "city",
+              "label": {
+                "fr": "Ville",
+                "en": "City"
+              }
+            },
+            {
+              "value": "nature",
+              "label": {
+                "fr": "Nature / aventure",
+                "en": "Nature / adventure"
+              }
+            },
+            {
+              "value": "business",
+              "label": {
+                "fr": "Affaires",
+                "en": "Business"
+              }
+            },
+            {
+              "value": "package_tour",
+              "label": {
+                "fr": "Circuit organisé",
+                "en": "Package tour"
+              }
+            },
+            {
+              "value": "accommodation",
+              "label": {
+                "fr": "Hébergement",
+                "en": "Accommodation"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        },
+        {
+          "slug": "booking-type",
+          "name": {
+            "fr": "Type de réservation",
+            "en": "Booking type"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "per_person",
+              "label": {
+                "fr": "Par personne",
+                "en": "Per person"
+              }
+            },
+            {
+              "value": "per_night",
+              "label": {
+                "fr": "Par nuit",
+                "en": "Per night"
+              }
+            },
+            {
+              "value": "whole_package",
+              "label": {
+                "fr": "Forfait complet",
+                "en": "Whole package"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        }
+      ]
+    },
+    {
+      "categorySlug": "kids-baby",
+      "attributes": [
+        {
+          "slug": "age-group",
+          "name": {
+            "fr": "Âge concerné",
+            "en": "Age group"
+          },
+          "type": "select",
+          "required": false,
+          "filterable": true,
+          "options": [
+            {
+              "value": "0_2",
+              "label": {
+                "fr": "0–2 ans",
+                "en": "0–2 years"
+              }
+            },
+            {
+              "value": "3_5",
+              "label": {
+                "fr": "3–5 ans",
+                "en": "3–5 years"
+              }
+            },
+            {
+              "value": "6_12",
+              "label": {
+                "fr": "6–12 ans",
+                "en": "6–12 years"
+              }
+            },
+            {
+              "value": "13_plus",
+              "label": {
+                "fr": "13 ans et plus",
+                "en": "13+ years"
+              }
+            }
+          ],
+          "group": {
+            "fr": "Caractéristiques",
+            "en": "Specifications"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "marketplace": "CoinAfrique Cameroon",
+          "url": "https://cm.coinafrique.com/",
+          "path": "Accueil > Véhicules, Électronique, Mode & Beauté, Immobilier, Électroménager, Pour la maison, Emplois, Services, Pour l’enfant, Sports & Loisirs, Alimentation, Animaux, Matériel Pro"
+        },
+        {
+          "marketplace": "Jiji Nigeria (marché régional de comparaison)",
+          "url": "https://jiji.ng/",
+          "path": "Electronics; Home, Furniture & Appliances; Fashion; Beauty & Personal Care; Services; Repair & Construction; Commercial Equipment & Tools; Food, Agriculture & Farming; Animals & Pets; Jobs"
+        },
+        {
+          "marketplace": "Jumia Nigeria (profondeur e-commerce régionale)",
+          "url": "https://www.jumia.com.ng/mlp-all-categories/",
+          "path": "Phones & Tablets; Electronics; Garden & Outdoors; Musical Instruments; Home & Office; Baby Products; Health & Beauty; Groceries; Industrial & Scientific"
+        }
+      ]
+    }
+  ],
+  "optionAdditions": [
+    {
+      "categorySlug": "cars",
+      "attributeSlug": "make",
+      "addOptions": [
+        {
+          "value": "geely",
+          "label": {
+            "fr": "Geely",
+            "en": "Geely"
+          }
+        },
+        {
+          "value": "chery",
+          "label": {
+            "fr": "Chery",
+            "en": "Chery"
+          }
+        },
+        {
+          "value": "byd",
+          "label": {
+            "fr": "BYD",
+            "en": "BYD"
+          }
+        },
+        {
+          "value": "gac",
+          "label": {
+            "fr": "GAC",
+            "en": "GAC"
+          }
+        },
+        {
+          "value": "jetour",
+          "label": {
+            "fr": "Jetour",
+            "en": "Jetour"
+          }
+        },
+        {
+          "value": "changan",
+          "label": {
+            "fr": "Changan",
+            "en": "Changan"
+          }
+        },
+        {
+          "value": "haval",
+          "label": {
+            "fr": "Haval",
+            "en": "Haval"
+          }
+        },
+        {
+          "value": "mg",
+          "label": {
+            "fr": "MG",
+            "en": "MG"
+          }
+        },
+        {
+          "value": "wuling",
+          "label": {
+            "fr": "Wuling",
+            "en": "Wuling"
+          }
+        },
+        {
+          "value": "jac",
+          "label": {
+            "fr": "JAC",
+            "en": "JAC"
+          }
+        },
+        {
+          "value": "great_wall",
+          "label": {
+            "fr": "Great Wall",
+            "en": "Great Wall"
+          }
+        },
+        {
+          "value": "dongfeng",
+          "label": {
+            "fr": "Dongfeng",
+            "en": "Dongfeng"
+          }
+        },
+        {
+          "value": "faw",
+          "label": {
+            "fr": "FAW",
+            "en": "FAW"
+          }
+        },
+        {
+          "value": "foton",
+          "label": {
+            "fr": "Foton",
+            "en": "Foton"
+          }
+        },
+        {
+          "value": "tata",
+          "label": {
+            "fr": "Tata",
+            "en": "Tata"
+          }
+        },
+        {
+          "value": "mahindra",
+          "label": {
+            "fr": "Mahindra",
+            "en": "Mahindra"
+          }
+        },
+        {
+          "value": "proton",
+          "label": {
+            "fr": "Proton",
+            "en": "Proton"
+          }
+        }
+      ]
+    }
+  ]
+}

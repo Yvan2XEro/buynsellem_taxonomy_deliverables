@@ -1,0 +1,42 @@
+[
+  {
+    "categorySlug": "womens-clothing",
+    "addAliases": "pagne, pagne wax, kaba, kaba moderne, ankara, wax, ndop, tissu africain, robe africaine, ensemble pagne, wrapper, african print"
+  },
+  {
+    "categorySlug": "mens-clothing",
+    "addAliases": "boubou, grand boubou, tenue africaine, tenue traditionnelle, kaba homme, african wear, traditional outfit"
+  },
+  {
+    "categorySlug": "home-garden",
+    "addAliases": "maison et jardin, articles maison, household, home goods, menage, equipement maison"
+  },
+  {
+    "categorySlug": "garden-diy",
+    "addAliases": "bricolage, quincaillerie, outils, outillage, hardware, diy tools, jardinage"
+  },
+  {
+    "categorySlug": "real-estate",
+    "addAliases": "immobilier, maison a vendre, maison a louer, appartement a louer, terrain a vendre, property, housing"
+  },
+  {
+    "categorySlug": "vehicles",
+    "addAliases": "auto, automobile, voiture, moto, vehicule, car, motorcycle, motorbike"
+  },
+  {
+    "categorySlug": "electronics",
+    "addAliases": "electronique, appareil electronique, gadget, electronic device, electronics"
+  },
+  {
+    "categorySlug": "kids-baby",
+    "addAliases": "bebe, puericulture, enfant, baby products, childcare, kids items"
+  },
+  {
+    "categorySlug": "jobs-services",
+    "addAliases": "emploi, prestation, prestataire, service professionnel, job, service provider"
+  },
+  {
+    "categorySlug": "leisure-sports",
+    "addAliases": "loisir, passe temps, hobby, sport, recreational equipment"
+  }
+]

@@ -1,0 +1,11 @@
+BuyNSellem taxonomy validator
+Files: categories.new.json, attributes.existing.json, aliases.existing.json, tags.new.json
+API status: {"categories": "inaccessible (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)", "tags": "inaccessible (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)"}
+Known current categories: 31; proposed categories: 167; final total: 198
+Proposed new tags: 20; alias entries: 10
+PASS: 167 slugs de nouvelles catégories uniques; 31 slugs existants connus
+PASS: Attributs: types, libellés bilingues, options et unicité locale vérifiés
+PASS: 20 tags nouveaux uniques; toutes leurs catégories cibles existent
+WARN: API categories: lecture impossible — <urlopen error [Errno -3] Temporary failure in name resolution>
+WARN: API tags: lecture impossible — <urlopen error [Errno -3] Temporary failure in name resolution>
+STATUS: PASS WITH WARNINGS (0 errors, 2 warnings)
